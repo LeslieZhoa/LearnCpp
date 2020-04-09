@@ -1,0 +1,39 @@
+﻿生成启动时间为 2020/4/9 1:19:29。
+     1>项目“D:\C++\SpeechGame\SpeechGame\SpeechGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt SpeechGame.cpp speechManager.cpp
+         speechManager.cpp
+     1>d:\c++\speechgame\speechgame\speechmanager.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\program files\microsoft visual studio 14.0\vc\include\numeric(20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         d:\program files\microsoft visual studio 14.0\vc\include\numeric(30): note: 参见对正在编译的函数 模板 实例化“_Ty std::_Accumulate<std::_Deque_unchecked_iterator<_Mydeque>,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)”的引用
+                 with
+                 [
+                     _Ty=float,
+                     _Mydeque=std::_Deque_val<std::_Deque_simple_types<double>>,
+                     _Fn2=std::plus<void>,
+                     _InIt=std::_Deque_unchecked_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+                 ]
+         d:\program files\microsoft visual studio 14.0\vc\include\numeric(38): note: 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)”的引用
+                 with
+                 [
+                     _Ty=float,
+                     _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+                     _Fn2=std::plus<void>
+                 ]
+         d:\c++\speechgame\speechgame\speechmanager.cpp(175): note: 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,float>(_InIt,_InIt,_Ty)”的引用
+                 with
+                 [
+                     _Ty=float,
+                     _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+                 ]
+         SpeechGame.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\SpeechGame\Debug\SpeechGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\C++\SpeechGame\Debug\SpeechGame.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\SpeechGame\Debug\SpeechGame.lib" /MACHINE:X86 Debug\SpeechGame.obj
+         Debug\speechManager.obj
+         SpeechGame.vcxproj -> D:\C++\SpeechGame\Debug\SpeechGame.exe
+     1>已完成生成项目“D:\C++\SpeechGame\SpeechGame\SpeechGame.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.90
